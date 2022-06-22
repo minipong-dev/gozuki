@@ -272,6 +272,8 @@ function App() {
 
     //You have minted {data.mintedCount(blockchain.account)}
 
+    //<StyledImg alt={"example"} src={"/config/images/example.gif"} /> LINE 310
+
     return (
         <s.Screen>
             <s.Container
@@ -302,8 +304,6 @@ function App() {
 
 
                 </s.TextTitle>
-
-                <StyledImg alt={"example"} src={"/config/images/example.gif"} />
 
 
 
