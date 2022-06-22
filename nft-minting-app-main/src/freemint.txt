@@ -1,0 +1,14 @@
+<s.SpacerMedium />
+<s.Container ai={"center"} jc={"center"} fd={"row"}>
+    <StyledButton
+        disabled={claimingNft ? 1 : 0}
+        onClick={(e) => {
+            e.preventDefault();
+            claimFreeNFTs();
+            getData();
+        }}
+    >
+        {claimingNft ? "PROCESSING" : "2 FREE MINTS"}
+
+    </StyledButton>
+</s.Container>
