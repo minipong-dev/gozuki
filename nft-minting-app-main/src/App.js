@@ -296,7 +296,7 @@ function App() {
                     }}
                 >
 
-                    <br />
+                    Gozuki<br />
 
 
                 </s.TextTitle>
@@ -341,7 +341,6 @@ function App() {
                         >
 
                             <br />
-
                             {data.totalSupply} / {CONFIG.MAX_SUPPLY}<br />
                             <br />
 
@@ -585,23 +584,21 @@ function App() {
                         <br />
 
 
-                        GOZUKI LORE
+                        GOZUKI LORE<br />
 
                         Enter the forest of Gozuki, where everything consists of greenery. Think of Orcs, Goblins, Kappa’s, Reptiles and Nightcrawlers, basically everything that lives in the hidden mists..
-                        The Gozuki colours variate from Orcish Green to Mountain Greys. Each to have their own story and battle ahead.
+                        The Gozuki colours variate from Orcish Green to Mountain Greys. Each to have their own story and battle ahead.<br />
 
-                        They use old armor of fallen warriors, fishermen, and peasants that tried to enter the forest but were simply not ready for what they were about to encounter.
+                        They use old armor of fallen warriors, fishermen, and peasants that tried to enter the forest but were simply not ready for what they were about to encounter.<br />
 
-                        The usage of Ethereum is strictly forbidden in the Forest, but some Gozuki's simply dont care.. They are also shunned from the forest, due to Ethereum holding dark forces and pollution is inevitable.
+                        The usage of Ethereum is strictly forbidden in the Forest, but some Gozuki's simply dont care.. They are also shunned from the forest, due to Ethereum holding dark forces and pollution is inevitable.<br />
                         The Gozuki's also dont believe in diamonds, all they want is gold.
 
-                        Some Gozuki's also come without tusks, but they found a solution to that.
+                        Some Gozuki's also come without tusks, but they found a solution to that.<br />
 
-                        The battle upfront starts with 3333 Male Gozuki's. The Women and Children have been left home. But a switch in the Forest is near..
+                        The battle upfront starts with 3333 Male Gozuki's. The Women and Children have been left home. But a switch in the Forest is near...<br />
 
-                        There are also 5 1/1 Gozuki scattered in the Forest. There is 1 in particular where legends says that nobody has looked him in the eye for longer then 5 seconds. They all got #Gobsmacked.
-
-
+                        There are also 5 1/1 Gozuki scattered in the Forest. There is 1 in particular where legends says that nobody has looked him in the eye for longer then 5 seconds. They all got #Gobsmacked.<br />
 
                         <br />
 
