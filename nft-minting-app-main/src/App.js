@@ -586,13 +586,13 @@ function App() {
 
                         GOZUKI LORE<br />
 
-                        Enter the forest of Gozuki, where everything consists of greenery. Think of Orcs, Goblins, Kappa’s, Reptiles and Nightcrawlers, basically everything that lives in the hidden mists..
+                        Enter the forest of Gozuki, where everything consists of greenery. Think of Orcs, Goblins, Kappa’s, Reptiles and Nightcrawlers, basically everything that lives in the hidden mists..<br />
                         The Gozuki colours variate from Orcish Green to Mountain Greys. Each to have their own story and battle ahead.<br />
 
                         They use old armor of fallen warriors, fishermen, and peasants that tried to enter the forest but were simply not ready for what they were about to encounter.<br />
 
                         The usage of Ethereum is strictly forbidden in the Forest, but some Gozuki's simply dont care.. They are also shunned from the forest, due to Ethereum holding dark forces and pollution is inevitable.<br />
-                        The Gozuki's also dont believe in diamonds, all they want is gold.
+                        The Gozuki's also dont believe in diamonds, all they want is gold.<br />
 
                         Some Gozuki's also come without tusks, but they found a solution to that.<br />
 
