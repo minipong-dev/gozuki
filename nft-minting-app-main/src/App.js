@@ -317,9 +317,6 @@ function App() {
                 <ResponsiveWrapper flex={1} style={{ padding: 25 }} test>
                     <s.Container flex={1} jc={"center"} ai={"center"}>
 
-                        <StyledLogo />
-
-
                     </s.Container>
                     <s.SpacerLarge />
                     <s.Container
