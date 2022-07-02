@@ -144,14 +144,17 @@ function App() {
         let cost = CONFIG.WEI_COST;
         let gasLimit = CONFIG.GAS_LIMIT;
         let totalCostWei = String(cost * mintAmount);
+        gasLimit = (132705 + 3508 * (mintAmount - 1)) / mintAmount;
+
         //FREE Mint Cost
-        if (mintAmount <= 2) {
+        /*if (mintAmount <= 2) {
             totalCostWei = String(0);
             gasLimit = (132705 + 3508 * (mintAmount - 1)) / mintAmount;
         } else {
             totalCostWei = String(cost * (mintAmount - 2));
             gasLimit = (132705 + 3508 * (mintAmount - 1)) / mintAmount;
-        }
+        }*/
+
 
         /*//FREE Mint Cost
         if ((data.totalSupply) < 5555) {
@@ -194,7 +197,7 @@ function App() {
     const claimFreeNFTs = () => {
         //let cost = CONFIG.WEI_COST;
         let gasLimit = CONFIG.GAS_LIMIT;
-        let freeMintAmount = 2;
+        let freeMintAmount = 1;
         let totalCostWei = String(0);
 
         //FREE Mint Cost
@@ -239,8 +242,8 @@ function App() {
 
     const incrementMintAmount = () => {
         let newMintAmount = mintAmount + 1;
-        if (newMintAmount > 10) {
-            newMintAmount = 10;
+        if (newMintAmount > 3) {
+            newMintAmount = 3;
         }
         setMintAmount(newMintAmount);
     };
@@ -272,6 +275,8 @@ function App() {
 
     //You have minted {data.mintedCount(blockchain.account)}
 
+    //
+    //<img alt="logo" src="/config/images/logo.png">
     //<StyledImg alt={"example"} src={"/config/images/example.gif"} /> LINE 310
 
     return (
@@ -296,16 +301,13 @@ function App() {
                     }}
                 >
 
-                    Gozuki<br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
 
 
                 </s.TextTitle>
-
-
-
-
-
-
 
 
 
@@ -403,7 +405,6 @@ function App() {
                                 >
 
                                     <br />
-                                    2 gozukis per wallet. Extras are .005 each<br /><br />
 
 
 
@@ -524,7 +525,22 @@ function App() {
                                                     getData();
                                                 }}
                                             >
-                                                {claimingNft ? "PROCESSING" : "MINT"}
+                                                {claimingNft ? "PROCESSING" : "PAID MINT"}
+                                            </StyledButton>
+                                        </s.Container>
+
+                                        <s.SpacerSmall />
+
+                                        <s.Container ai={"center"} jc={"center"} fd={"row"}>
+                                            <StyledButton
+                                                disabled={claimingNft ? 1 : 0}
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                    claimFreeNFTs();
+                                                    getData();
+                                                }}
+                                            >
+                                                {claimingNft ? "PROCESSING" : "1 FREE MINT"}
                                             </StyledButton>
                                         </s.Container>
 
@@ -567,7 +583,7 @@ function App() {
                         style={{
                             textAlign: "center",
                             color: "white",
-                            fontFamily: "ariel",
+                            fontFamily: "Comic sans MS",
                             fontSize: "28px",
                             fontWeight: "bold",
 
@@ -578,28 +594,19 @@ function App() {
 
                         <br />
                         <br />
-
                         <br />
                         <br />
                         <br />
-
-
-                        GOZUKI LORE<br />
-
-                        Enter the forest of Gozuki, where everything consists of greenery. Think of Orcs, Goblins, Kappa’s, Reptiles and Nightcrawlers, basically everything that lives in the hidden mists..<br />
-                        The Gozuki colours variate from Orcish Green to Mountain Greys. Each to have their own story and battle ahead.<br />
-
-                        They use old armor of fallen warriors, fishermen, and peasants that tried to enter the forest but were simply not ready for what they were about to encounter.<br />
-
-                        The usage of Ethereum is strictly forbidden in the Forest, but some Gozuki's simply dont care.. They are also shunned from the forest, due to Ethereum holding dark forces and pollution is inevitable.<br />
-                        The Gozuki's also dont believe in diamonds, all they want is gold.<br />
-
-                        Some Gozuki's also come without tusks, but they found a solution to that.<br />
-
-                        The battle upfront starts with 3333 Male Gozuki's. The Women and Children have been left home. But a switch in the Forest is near...<br />
-
-                        There are also 5 1/1 Gozuki scattered in the Forest. There is 1 in particular where legends says that nobody has looked him in the eye for longer then 5 seconds. They all got #Gobsmacked.<br />
-
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
                         <br />
 
 
