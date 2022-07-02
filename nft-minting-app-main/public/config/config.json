@@ -1,18 +1,18 @@
 {
-  "CONTRACT_ADDRESS": "0x30575dc53503d4f31edf515f34ada9d8f135c377",
-  "SCAN_LINK": "https://etherscan.io/address/0x30575dc53503d4f31edf515f34ada9d8f135c377",
+  "CONTRACT_ADDRESS": "0xf250313c48ce3a522caa6b25998b9248b34bfc0d",
+  "SCAN_LINK": "https://etherscan.io/address/0xf250313c48ce3a522caa6b25998b9248b34bfc0d",
   "NETWORK": {
     "NAME": "Ethereum",
     "SYMBOL": "ETH",
     "ID": 1
   },
-  "NFT_NAME": "PussiPals",
-  "SYMBOL": "PUSSI",
-  "MAX_SUPPLY": 9999,
+  "NFT_NAME": "Gozuki",
+  "SYMBOL": "GOZUKI",
+  "MAX_SUPPLY": 4444,
   "WEI_COST": 5000000000000000,
   "DISPLAY_COST": 0.005,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opensea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/no-necks",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/gozuki",
   "SHOW_BACKGROUND": true
 }
