@@ -531,6 +531,8 @@ function App() {
                                         </s.Container>
 
                                         <s.SpacerSmall />
+                                        1 Free Mint after first 1000 minted
+                                        <s.SpacerSmall />
 
                                         <s.Container ai={"center"} jc={"center"} fd={"row"}>
                                             <StyledButton
@@ -546,6 +548,8 @@ function App() {
                                             </StyledButton>
                                         </s.Container>
 
+                                        <s.SpacerSmall />
+                                        2 Free Mints during first 1000 mints
                                         <s.SpacerSmall />
 
                                         <s.Container ai={"center"} jc={"center"} fd={"row"}>
@@ -610,7 +614,7 @@ function App() {
                     >
 
 
-                        <br />{freeMintAmount}
+                        <br />
                         <br />
                         <br />
                         <br />
