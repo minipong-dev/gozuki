@@ -537,7 +537,7 @@ function App() {
                                                 textAlign: "center",
                                                 color: "white",
                                                 fontFamily: "Comic sans MS",
-                                                fontSize: "30px",
+                                                fontSize: "18px",
                                                 fontWeight: "900",
 
                                             }}
@@ -570,14 +570,14 @@ function App() {
                                                 textAlign: "center",
                                                 color: "white",
                                                 fontFamily: "Comic sans MS",
-                                                fontSize: "30px",
+                                                fontSize: "18px",
                                                 fontWeight: "900",
 
                                             }}
 
                                         >
 
-                                            2 Free Mints during first 1000 mints
+                                            2 Free Mints before 1000 minted
 
                                         </s.TextDescription>
                                         <s.SpacerSmall />
