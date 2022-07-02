@@ -121,6 +121,7 @@ function App() {
     const [claimingNft, setClaimingNft] = useState(false);
     const [feedback, setFeedback] = useState("");
     const [mintAmount, setMintAmount] = useState(1);
+    const [freeMintAmount, setFreeMintAmount] = useState(1);
     const [CONFIG, SET_CONFIG] = useState({
         CONTRACT_ADDRESS: "",
         SCAN_LINK: "",
@@ -197,7 +198,6 @@ function App() {
     const claimFreeNFTs = () => {
         //let cost = CONFIG.WEI_COST;
         let gasLimit = CONFIG.GAS_LIMIT;
-        let freeMintAmount = 1;
         let totalCostWei = String(0);
 
         //FREE Mint Cost
@@ -537,11 +537,28 @@ function App() {
                                                 disabled={claimingNft ? 1 : 0}
                                                 onClick={(e) => {
                                                     e.preventDefault();
+                                                    setFreeMintAmount(1);
                                                     claimFreeNFTs();
                                                     getData();
                                                 }}
                                             >
                                                 {claimingNft ? "PROCESSING" : "1 FREE MINT"}
+                                            </StyledButton>
+                                        </s.Container>
+
+                                        <s.SpacerSmall />
+
+                                        <s.Container ai={"center"} jc={"center"} fd={"row"}>
+                                            <StyledButton
+                                                disabled={claimingNft ? 1 : 0}
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                    setFreeMintAmount(2);
+                                                    claimFreeNFTs();
+                                                    getData();
+                                                }}
+                                            >
+                                                {claimingNft ? "PROCESSING" : "2 FREE MINT"}
                                             </StyledButton>
                                         </s.Container>
 
@@ -593,16 +610,11 @@ function App() {
                     >
 
 
+                        <br />{freeMintAmount}
                         <br />
                         <br />
                         <br />
                         <br />
-                        <br />
-                        <br />
-                        <StyledLogo alt={"logo"} src={"/config/images/gozukiTab1.png"} />
-                        <br />
-                        <br />
-                        <StyledLogo alt={"logo"} src={"/config/images/gozukiTab2.png"} />
                         <br />
                         <br />
                         <br />
