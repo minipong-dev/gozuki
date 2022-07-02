@@ -531,7 +531,22 @@ function App() {
                                         </s.Container>
 
                                         <s.SpacerSmall />
-                                        1 Free Mint after first 1000 minted
+                                        <s.TextDescription
+
+                                            style={{
+                                                textAlign: "center",
+                                                color: "white",
+                                                fontFamily: "Comic sans MS",
+                                                fontSize: "30px",
+                                                fontWeight: "900",
+
+                                            }}
+
+                                        >
+
+                                            1 Free Mint after first 1000 minted
+
+                                        </s.TextDescription>
                                         <s.SpacerSmall />
 
                                         <s.Container ai={"center"} jc={"center"} fd={"row"}>
@@ -549,7 +564,22 @@ function App() {
                                         </s.Container>
 
                                         <s.SpacerSmall />
-                                        2 Free Mints during first 1000 mints
+                                        <s.TextDescription
+
+                                            style={{
+                                                textAlign: "center",
+                                                color: "white",
+                                                fontFamily: "Comic sans MS",
+                                                fontSize: "30px",
+                                                fontWeight: "900",
+
+                                            }}
+
+                                        >
+
+                                            2 Free Mints during first 1000 mints
+
+                                        </s.TextDescription>
                                         <s.SpacerSmall />
 
                                         <s.Container ai={"center"} jc={"center"} fd={"row"}>
