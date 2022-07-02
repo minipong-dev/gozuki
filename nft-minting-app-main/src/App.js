@@ -284,7 +284,7 @@ function App() {
             <s.Container
                 flex={1}
                 ai={"center"}
-                style={{ padding: 74, backgroundColor: "var(--primary)" }}
+                style={{ backgroundColor: "var(--primary)" }}
 
                 image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.jpg" : null}
 
@@ -303,6 +303,7 @@ function App() {
 
                     <br />
                     <br />
+                    <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
                     <br />
                     <br />
 
@@ -598,25 +599,10 @@ function App() {
                         <br />
                         <br />
                         <br />
+                        <StyledLogo alt={"logo"} src={"/config/images/gozukiTab1.png"} />
                         <br />
                         <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
+                        <StyledLogo alt={"logo"} src={"/config/images/gozukiTab2.png"} />
                         <br />
                         <br />
                         <br />
