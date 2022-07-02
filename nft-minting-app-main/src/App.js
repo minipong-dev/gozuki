@@ -302,17 +302,13 @@ function App() {
                 >
 
                     <br />
-                    <br />
                     <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
-                    <br />
                     <br />
 
 
                 </s.TextTitle>
 
 
-
-                <s.SpacerSmall />
                 <ResponsiveWrapper flex={1} style={{ padding: 25 }} test>
                     <s.Container flex={1} jc={"center"} ai={"center"}>
 
@@ -618,13 +614,25 @@ function App() {
                             textAlign: "center",
                             color: "white",
                             fontFamily: "Comic sans MS",
-                            fontSize: "30px",
+                            fontSize: "24px",
                             fontWeight: "900",
 
                         }}
 
                     >
 
+                        <h2>FAQ</h2><br />
+                        <br />
+                        Q. How much is mint?<br />
+                        A. You can mint 2 free gozukis during the first 1000 mints, and 1 free gozuki after that.<br />
+                        You can also mint extras at any time for 0.005 each.<br />
+                        <br />
+                        Q. When will Gozuki reveal?<br />
+                        A. Gozuki will reveal instantly.<br />
+                        <br />
+                        Q. Where can I find the Gozuki Twitter?<br />
+                        A. You can find our <a href="https://www.twitter.com/GozukiOfficial">Twitter here</a>.<br />
+                        <br />
 
 
                     </s.TextDescription>
@@ -644,8 +652,6 @@ function App() {
                     >
 
 
-                        <br />
-                        <br />
                         <br />
                         <br />
                         <br />
